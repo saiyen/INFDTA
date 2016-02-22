@@ -1,0 +1,15 @@
+c:\users\saiyen\documents\visual studio 2015\Projects\opdracht1\opdracht1\bin\Debug\opdracht1.exe.config
+c:\users\saiyen\documents\visual studio 2015\Projects\opdracht1\opdracht1\bin\Debug\opdracht1.exe
+c:\users\saiyen\documents\visual studio 2015\Projects\opdracht1\opdracht1\bin\Debug\opdracht1.pdb
+c:\users\saiyen\documents\visual studio 2015\Projects\opdracht1\opdracht1\obj\Debug\opdracht1.exe
+c:\users\saiyen\documents\visual studio 2015\Projects\opdracht1\opdracht1\obj\Debug\opdracht1.pdb
+c:\users\saiyen\documents\visual studio 2015\Projects\opdracht1\opdracht1\obj\Debug\opdracht1.csprojResolveAssemblyReference.cache
+C:\Users\chill\Documents\Visual Studio 2015\Projects\opdracht1\bin\Debug\opdracht1.exe.config
+C:\Users\chill\Documents\Visual Studio 2015\Projects\opdracht1\obj\Debug\opdracht1.exe
+C:\Users\chill\Documents\Visual Studio 2015\Projects\opdracht1\obj\Debug\opdracht1.pdb
+C:\Users\chill\Documents\Visual Studio 2015\Projects\opdracht1\bin\Debug\opdracht1.exe
+C:\Users\chill\Documents\Visual Studio 2015\Projects\opdracht1\bin\Debug\opdracht1.pdb
+C:\Users\chill\Documents\Visual Studio 2015\Projects\opdracht1\obj\Debug\opdracht1.csprojResolveAssemblyReference.cache
+C:\Users\chill\Source\Repos\INFDTA\opdracht1\bin\Debug\opdracht1.exe.config
+C:\Users\chill\Source\Repos\INFDTA\opdracht1\obj\Debug\opdracht1.exe
+C:\Users\chill\Source\Repos\INFDTA\opdracht1\obj\Debug\opdracht1.pdb
