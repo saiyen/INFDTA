@@ -12,7 +12,7 @@ namespace opdracht1
     {
         static void Main(string[] args)
         {
-            fileReader readFile = new fileReader();
+            FileReader readFile = new FileReader();
             readFile.ReadFile();
         }
     }

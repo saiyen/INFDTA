@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace opdracht1.Classes
 {
-    class UserPreferences
+    class Pearson : IRecommender
     {
-        public int UserId { get; set; }
-        public int Article { get; set; }
-        public double Rating { get; set; }
     }
 }
