@@ -9,7 +9,7 @@ namespace opdracht1.Classes
 {
     class FileReader
     {
-        Dictionary<int, Dictionary<int, UserPreferences>> users = new Dictionary<int, Dictionary<int, UserPreferences>>();
+        Dictionary<int, List<UserPreferences>> users;
 
         public void ReadFile()
         {
@@ -23,20 +23,21 @@ namespace opdracht1.Classes
             {
                 var temp = currentLine.Split(',');
                 int userID = int.Parse(temp[0]);
+                int article = int.Parse(temp[1]);
+                double rating = double.Parse(temp[2]);
 
-
-                Dictionary<int, UserPreferences> userRatings;
+                List<UserPreferences> userRatings;
                 if (!users.TryGetValue(userID, out userRatings))
                 {
-                    users.Add(userID, new Dictionary<int, UserPreferences>());
+                    users.Add(userID, new List<UserPreferences>());
                 }
-                
-                users[userID].Add(userID, new UserPreferences { UserId = 1, Article = 100, Rating = 3.0 });
-
+                else
+                {
+                    users[userID].Add(new UserPreferences { UserId = userID, Article = article, Rating = rating });
+                }
             }
 
-            
-            Console.WriteLine(users[0].Keys);
+            Console.WriteLine(users[0]);
            
 
             Console.ReadKey();
