@@ -9,7 +9,8 @@ namespace opdracht1.Classes
 {
     class FileReader
     {
-        Dictionary<int, List<UserPreferences>> users;
+
+        Dictionary<int, List<UserPreferences>> users = new Dictionary<int, List<UserPreferences>>();
 
         public void ReadFile()
         {
@@ -35,12 +36,11 @@ namespace opdracht1.Classes
                 {
                     users[userID].Add(new UserPreferences { UserId = userID, Article = article, Rating = rating });
                 }
+                Console.WriteLine(userRatings[1].UserId);
+                Console.ReadKey();
             }
-
-            Console.WriteLine(users[0]);
-           
-
-            Console.ReadKey();
+   
+        
             sr.Close();
         }
 
