@@ -8,5 +8,6 @@ namespace opdracht1.Classes
 {
     class Pearson : IRecommender
     {
+     
     }
 }
