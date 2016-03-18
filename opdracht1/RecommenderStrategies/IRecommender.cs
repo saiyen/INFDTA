@@ -8,6 +8,6 @@ namespace opdracht1.Classes
 {
     interface IRecommender
     {
-
+        double Calculate(Dictionary<int, List<UserPreferences>> dataset);
     }
 }
