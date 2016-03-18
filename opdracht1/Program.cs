@@ -12,8 +12,8 @@ namespace opdracht1
     {
         static void Main(string[] args)
         {
-            FileReader readFile = new FileReader();
-            readFile.ReadFile();
+            SelectFile selectFile = new SelectFile();
+            selectFile.selectDataSet();
         }
     }
 }
