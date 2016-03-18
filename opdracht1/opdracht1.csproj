@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Cosine.cs" />
-    <Compile Include="Classes\Euclidean.cs" />
-    <Compile Include="Classes\FileReader.cs" />
-    <Compile Include="Classes\Pearson.cs" />
-    <Compile Include="Classes\IRecommender.cs" />
-    <Compile Include="Classes\UserPreferences.cs" />
+    <Compile Include="RecommenderStrategies\Cosine.cs" />
+    <Compile Include="RecommenderStrategies\Euclidean.cs" />
+    <Compile Include="FileReader\FileReader.cs" />
+    <Compile Include="RecommenderStrategies\Pearson.cs" />
+    <Compile Include="RecommenderStrategies\IRecommender.cs" />
+    <Compile Include="RecommenderStrategies\UserPreferences.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
