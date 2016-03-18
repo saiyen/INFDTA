@@ -15,20 +15,27 @@ namespace opdracht1.Classes
         StreamReader sr;
         char splitter;
 
-        public void selectSmallDataset()
+        public Dictionary<int, List<UserPreferences>> GetDataSet()
+        {
+            return users;
+        }
+
+        public Dictionary<int, List<UserPreferences>> selectSmallDataset()
         {
             FileStream readSmall = new FileStream("../../userItem.data", FileMode.Open);
             sr = new StreamReader(readSmall);
             splitter = ','; 
             ReadFile();
+            return GetDataSet();
         }
 
-        public void selectBigDataset()
+        public Dictionary<int, List<UserPreferences>> selectBigDataset()
         {
             FileStream readBig = new FileStream("../../u.data", FileMode.Open);
             sr = new StreamReader(readBig);
             splitter =  '\t'; 
             ReadFile();
+            return GetDataSet();
         }
 
         public void ReadFile()
@@ -61,14 +68,6 @@ namespace opdracht1.Classes
                     storeAllUserPreferences.Add(new UserPreferences() { UserId = users[i][j].UserId, Article = users[i][j].Article, Rating = users[i][j].Rating});
                 }
             }
-
-            Console.WriteLine(storeAllUserPreferences.Select(x => x.UserId));
-
-            Console.ReadKey();
-
-            /*SelectFile selectFile = new SelectFile();
-            selectFile.selectDataSet();*/
-
             sr.Close();
         }
     }
